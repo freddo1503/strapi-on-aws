@@ -14,5 +14,6 @@ export default ({ env }) => ({
     nps: env.bool('FLAG_NPS', false),
     promoteEE: env.bool('FLAG_PROMOTE_EE', false),
   },
-
+  url: env("ADMIN_PATH", "/"),
+  serveAdminPanel: false
 });

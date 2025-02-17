@@ -1,0 +1,11 @@
+# Node modules and build directories
+/strapi/node_modules
+/strapi/.strapi
+/strapi/dist
+
+# environment
+/strapi/.env
+
+/strapi/Dockerfile
+/strapi/README.md
+/strapi/.gitignore
