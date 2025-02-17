@@ -1,3 +1,5 @@
 /node_module/
 /cdk.out/
 /.idea/
+/nginx.conf/
+.env
